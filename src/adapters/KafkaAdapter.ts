@@ -9,7 +9,6 @@ import { KafkaClient, Producer as KafkaProducer, Consumer as KafkaConsumer } fro
 import { AbstractAdapter } from "./AbstractAdapter";
 import { AdapterClientConfig, SubscriptionOption } from "../types";
 import { Producer as BaseProducer } from "./Producer";
-import { get } from "lodash";
 import { MethodNotSupported } from "src/exceptions";
 
 type SubscriptionOptions = SubscriptionOption<"kafka">;

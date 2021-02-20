@@ -19,7 +19,7 @@ const config: PulsarClientConfig = {
 };
 
 describe('Pulsar Adapter', () => {
-	const adapter = new PulsarAdapter(config.url, config);
+	// const adapter = new PulsarAdapter(config.url, config);
 	it('test throttling', () => {
 		//
 	});
